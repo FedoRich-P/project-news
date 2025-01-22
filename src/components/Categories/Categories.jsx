@@ -6,7 +6,7 @@ export const Categories = ({ categories, setSelectedCategory, selectedCategory }
   return (
     <ul className={s.categories}>
       {categories.map(category => (
-        <li key={category.id}>
+        <li key={category}>
           <button className={`${s.item} ${selectedCategory === category ? s.active : ''}`}
                   onClick={() => setSelectedCategory(category)}>
             {category}
