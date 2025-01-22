@@ -1,5 +1,6 @@
 import s from './Categories.module.scss';
 
+// eslint-disable-next-line react/prop-types
 export const Categories = ({ categories, setSelectedCategory, selectedCategory }) => {
 
   return (

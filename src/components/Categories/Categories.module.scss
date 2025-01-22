@@ -1,7 +1,8 @@
 .categories {
   width: 100%;
   display: flex;
-  gap: 10px;
+  justify-content: space-between;
+  gap: 2px;
   overflow-x: auto;
   white-space: nowrap;
   scrollbar-width: none;
